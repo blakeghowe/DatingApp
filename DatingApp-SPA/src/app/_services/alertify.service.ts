@@ -13,7 +13,7 @@ confirm(message: string, okCallback: () => any) {
     if (e) {
       okCallback();
     } else {}
-  });
+  }).setHeader(' ');
 }
 
 success(message:string) {
